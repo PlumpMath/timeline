@@ -1,4 +1,4 @@
-package org.tago;
+package org.tago.timeline;
 
 import java.util.Arrays;
 

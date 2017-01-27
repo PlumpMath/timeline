@@ -1,9 +1,10 @@
-package org.tago;
+package org.tago.timeline;
 
 import org.junit.Test;
+import org.tago.timeline.TimeLine;
+import org.tago.timeline.TimeLineValue;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 import static org.junit.Assert.*;
 
@@ -26,5 +27,7 @@ public class TimeLineTest {
         line.put(LocalDate.now(), new TimeLineValue(3));
         assertEquals(new TimeLineValue(13), line.get(LocalDate.now()));
     }
+
+
 
 }
